@@ -1,0 +1,36 @@
+.header {
+  @include size(1440px, 232px);
+  position: relative;
+  background-image: url('../img/header.jpg');
+  &__title {
+    width: 340px;
+    height: 62px;
+    background-color: #ffffff;
+    color: #414141;
+    font-family: "Vida 33 Pro";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 53px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 92px;
+  }
+  &__subtitle {
+    width: 130px;
+    height: 39px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777b80;
+    font-size: 18px;
+    line-height: 44px;
+    font-family: "Vida 33 Pro";
+    position: absolute;
+    bottom: 51px;
+    left: 92px;
+  }
+}

@@ -1,0 +1,18 @@
+@import 'reset-css';
+@import 'mixins';
+@import "blocks/header";
+@import "blocks/notification";
+
+@font-face {
+  font-family: "Vida 31 Pro"; /* Гарнитура шрифта */
+  src: url("../font/vida31pro.otf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: "Vida 33 Pro"; /* Гарнитура шрифта */
+  src: url("../font/vida33pro.otf"); /* Путь к файлу со шрифтом */
+}
+
+body {
+  font-family: "Vida 31 Pro";
+}

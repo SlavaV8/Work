@@ -1,0 +1,52 @@
+.notification {
+  min-height: 139px;
+  border-radius: 8px;
+  border: 1px solid #edeeee;
+  background-color: #ffffff;
+  font-family: "Vida 31 Pro";
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  padding-right: 119px;
+  position: relative;
+  &__title {
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Vida 33 Pro";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 55px;
+  }
+  &__date {
+    color: #000000;
+    line-height: 20px;
+    width: 77px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: #edeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  &__content {
+    color: #5a5a58;
+    line-height: 24px;
+    display: none;
+  }
+  &__arrow {
+    width: 24px;
+    height: 24px;
+    background-color: #893b67;
+    position: absolute;
+    right: 32px;
+    top: 46px;
+    &:checked {
+      & + .notification__content {
+        display: block;
+      }
+    }
+  }
+}
