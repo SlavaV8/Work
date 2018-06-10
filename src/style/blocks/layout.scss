@@ -1,0 +1,47 @@
+.layout {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+
+  &__header {
+
+  }
+  &__wrapper {
+    display: flex;
+    height: 100%;
+
+  }
+
+  &__sidebare {
+    max-width: 445px;
+    width: 445px;
+    min-width: 445px;
+    padding-left: 94px;
+    padding-top: 63px;
+    padding-right: 72px;
+    box-sizing: border-box;
+  }
+  &__content {
+    width: 100%;
+    padding: 42px;
+    padding-right: 80px;
+  }
+  &__news {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(83, 86, 90, 0.1);
+    padding: 0px 155px;
+    min-height: 156px;
+    align-items: center;
+  }
+  &__footer {
+    display: flex;
+    padding: 0 142px;
+    height: 254px;
+    align-items: center;
+  }
+
+}

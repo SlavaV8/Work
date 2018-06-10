@@ -1,0 +1,35 @@
+.similar {
+  height: 131px;
+  &__title {
+    width: 118px;
+    height: 23px;
+    color: #893b67;
+    font-size: 24px;
+    font-weight: 400;
+
+  }
+
+  &__content {
+    width: 73px;
+    height: 15px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+  }
+
+  &__link {
+    width: 54px;
+    height: 13px;
+    color: #893b67;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
